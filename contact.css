@@ -1,0 +1,52 @@
+body{
+    background-image:url('ContactBackground.png');
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+    margin:0;
+}
+
+/* Side Navigation */
+.sidenav{
+    height:100%;
+    width:150px;
+    background-color:blue;
+    position:fixed;
+    overflow:hidden;
+}
+
+.sidenav a{
+    font-family:Arcade Classic;
+    padding:16px 8px 8px 18px;
+    font-size: 12px;
+    text-decoration:none;
+    color:white;
+    display:block;
+}
+
+.sidenav a:hover{
+    background-color:white;
+    color:orange;
+}
+/* Contact Us Format */
+.contactinfo{
+    color:white;
+    text-shadow:1px 2px blue;
+    font-family:Arcade Classic;
+    font-size: 13px;
+    line-height:2;
+    text-align:center;
+    padding-top:5%;
+}
+
+.footer{
+    color:white;
+    font-family:Arcade Classic;
+    font-size: 12px;
+    position:fixed;
+    left:0;
+    bottom:0;
+    width:100%;
+    text-align:center;
+    padding:5px;
+    background-color:black;
+}
